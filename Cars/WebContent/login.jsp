@@ -55,13 +55,16 @@
                         		<div class="form-top-left">
                         			<h3>Login to our site</h3>
                             		<p>Enter your username and password to log on:</p>
+                            		<% if(request.getAttribute("errorMessage")!=null){ %>
+                            		<%=new String(request.getAttribute("errorMessage").toString().getBytes("iso-8859-1"),"UTF-8") %>
+                        			<%} %>
                         		</div>
                         		<div class="form-top-right">
                         			<i class="fa fa-lock"></i>
                         		</div>
                             </div>
                             <div class="form-bottom">
-			                    <form role="form" action="" method="post" class="login-form">
+			                    <form role="form" action="UserServlet" method="post" class="login-form">
 			                    	<div class="form-group">
 			                    		<label class="sr-only" for="form-username">Username</label>
 			                        	<input type="text" name="form-username" placeholder="Username..." class="form-username form-control" id="form-username">

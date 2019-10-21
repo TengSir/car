@@ -43,7 +43,7 @@
 	
 	<header id="header" class="clearfix">
 		
-		<a href="index.html" id="logo"><img src="images/logo.png" alt="Car Dealer" /></a>
+		<a href="index.jsp" id="logo"><img src="images/logo.png" alt="Car Dealer" /></a>
 		
 		<div class="widget-container widget_search">
 			
@@ -51,7 +51,7 @@
 			
 			<span class="adds">中国，湖北省，襄阳市</span>
 
-			<form action="search.html" id="searchform" method="get" />
+			<form action="search.jsp" id="searchform" method="get" />
 				<input type="hidden"   name="method"  value="searchAny" />
 				<p>
 					
@@ -70,38 +70,38 @@
 		<nav id="navigation" class="navigation">
 			
 			<ul>
-				<li class="current-menu-item"><a href="index.html">首頁</a></li>
+				<li class="current-menu-item"><a href="index.jsp">首頁</a></li>
 				<li><a href="javascript:void()">找车</a>
 					<ul>
 						<li><a href="#">根据品牌</a>
 							<ul>
-								<li><a href="search.html">阿斯顿马丁</a></li>
-								<li><a href="search.html">奥迪</a></li>
-								<li><a href="search.html">宝马</a></li>
-								<li><a href="search.html">雪佛兰</a></li>
-								<li><a href="search.html">梅赛德斯奔驰</a></li>
-								<li><a href="search.html">法拉利</a></li>
-								<li><a href="search.html">雷克萨斯</a></li>
-								<li><a href="search.html">保时捷</a></li>
-								<li><a href="search.html">丰田</a></li>
+								<li><a href="search.jsp">阿斯顿马丁</a></li>
+								<li><a href="search.jsp">奥迪</a></li>
+								<li><a href="search.jsp">宝马</a></li>
+								<li><a href="search.jsp">雪佛兰</a></li>
+								<li><a href="search.jsp">梅赛德斯奔驰</a></li>
+								<li><a href="search.jsp">法拉利</a></li>
+								<li><a href="search.jsp">雷克萨斯</a></li>
+								<li><a href="search.jsp">保时捷</a></li>
+								<li><a href="search.jsp">丰田</a></li>
 							</ul>
 						</li>
 						<li><a href="#">根据车型</a>
 							<ul>
-								<li><a href="search.html">轿车</a></li>
-								<li><a href="search.html">suv</a></li>
-								<li><a href="search.html">越野车</a></li>
-								<li><a href="search.html">敞篷车</a></li>
-								<li><a href="search.html">跑车</a></li>
-								<li><a href="search.html">皮卡</a></li>
-								<li><a href="search.html">mpv</a></li>
-								<li><a href="search.html">硬派越野车</a></li>
+								<li><a href="search.jsp">轿车</a></li>
+								<li><a href="search.jsp">suv</a></li>
+								<li><a href="search.jsp">越野车</a></li>
+								<li><a href="search.jsp">敞篷车</a></li>
+								<li><a href="search.jsp">跑车</a></li>
+								<li><a href="search.jsp">皮卡</a></li>
+								<li><a href="search.jsp">mpv</a></li>
+								<li><a href="search.jsp">硬派越野车</a></li>
 							</ul>
 						</li>
 						</li>
 <!-- 						<li><a href="#">根据引擎</a> -->
 <!-- 							<ul> -->
-<!-- 								<li><a href="search.html">轿车</a></li> -->
+<!-- 								<li><a href="search.jsp">轿车</a></li> -->
 <!-- 							</ul> -->
 <!-- 						</li> -->
 						<li><a href="#">根据里程</a>
@@ -129,35 +129,49 @@
 						</li>
 						<li><a href="#">根据变速箱</a>
 							<ul>
-								<li><a href="search.html">自动</a></li>
-								<li><a href="search.html">手动</a></li>
+								<li><a href="search.jsp">自动</a></li>
+								<li><a href="search.jsp">手动</a></li>
 								<li><a href="&trans=手自一体">手自一体</a></li>
 								<li><a href="&trans=序列">序列</a></li>
 							</ul>
 						</li>
 					</ul>
 				</li>
-				<li><a href="blog.html">博客</a>
+				<li><a href="blog.jsp">博客</a>
 <!-- 					<ul> -->
-<!-- 						<li><a href="blog.html">Blog</a></li> -->
-<!-- 						<li><a href="blog-single.html">Blog Single</a></li> -->
+<!-- 						<li><a href="blog.jsp">Blog</a></li> -->
+<!-- 						<li><a href="blog-single.jsp">Blog Single</a></li> -->
 <!-- 					</ul> -->
 				</li>
-				<li><a href="news.html">新闻</a></li>
-				<li><a href="sales.html">销售顾问</a></li>
+				<li><a href="news.jsp">新闻</a></li>
+				<li><a href="sales.jsp">销售顾问</a></li>
 				<li><a href="javascript:void()">其他</a>
 					<ul>
-						<li><a href="compare.html">车型对比</a></li>
-<!-- 						<li><a href="404.html">404 Page</a></li> -->
-<!-- 						<li><a href="image-and-floats.html">Images and Floats</a></li> -->
-<!-- 						<li><a href="pricing-table.html">Pricing Tables</a></li> -->
-<!-- 						<li><a href="typography.html">Typography</a></li> -->
-						<li><a href="search.html">汽车常见知识</a></li>
-<!-- 						<li><a href="columns.html">Column Layout</a></li> -->
+						<li><a href="compare.jsp">车型对比</a></li>
+<!-- 						<li><a href="404.jsp">404 Page</a></li> -->
+<!-- 						<li><a href="image-and-floats.jsp">Images and Floats</a></li> -->
+<!-- 						<li><a href="pricing-table.jsp">Pricing Tables</a></li> -->
+<!-- 						<li><a href="typography.jsp">Typography</a></li> -->
+						<li><a href="search.jsp">汽车常见知识</a></li>
+<!-- 						<li><a href="columns.jsp">Column Layout</a></li> -->
 					</ul>
 				</li>
-				<li><a href="contact.html">联系我们</a></li>
-				<li><a href="shoppingCar.html"><img src="images/shoppingCar.png"  width="30" height="30" title="查看购物车" style="position: relative;top: 8px;"/></a></li>
+				<li><a href="contact.jsp">联系我们</a></li>
+				<li><a href="shoppingCar.jsp"><img src="images/shoppingCar.png"  width="30" height="30" title="查看购物车" style="position: relative;top: 8px;"/></a></li>
+				
+				<%
+				if(session.getAttribute("user")!=null){
+					
+					%>
+					<li>欢迎您：<%=session.getAttribute("user") %>!</li>
+					<%
+				}else{
+					%>
+					<li><a href="login.jsp">登陆</li>
+					<%
+				}
+				%>
+				
 			</ul>
 			
 		</nav><!--/ #navigation-->
@@ -178,7 +192,7 @@
 
 			
 								<li>
-									<a href="carDetail.html"  target="_blank">
+									<a href="carDetail.jsp"  target="_blank">
 									<img src="images/temp/6.jpg" alt="" style="width: 100%;height: 100%" />
 									</a>
 									<div class="caption">
@@ -191,13 +205,13 @@
 												<dd><span class="heading">￥91.3万</span></dd>
 											</dl><!--/ .auto-detailed-->
 				
-											<a href="carDetail.html"  target="_blank"  class="button orange">详情 &raquo;</a>
+											<a href="carDetail.jsp"  target="_blank"  class="button orange">详情 &raquo;</a>
 										</div><!--/ .caption-entry-->
 									</div><!--/ .caption-->
 								</li>					
 				
 								<li>
-									<a href="carDetail.html"  target="_blank">
+									<a href="carDetail.jsp"  target="_blank">
 									<img src="images/temp/2.jpg" alt="" style="width: 100%;height: 100%" />
 									</a>
 									<div class="caption">
@@ -210,13 +224,13 @@
 												<dd><span class="heading">￥80.9万</span></dd>
 											</dl><!--/ .auto-detailed-->
 				
-											<a href="carDetail.html"  target="_blank"  class="button orange">详情 &raquo;</a>
+											<a href="carDetail.jsp"  target="_blank"  class="button orange">详情 &raquo;</a>
 										</div><!--/ .caption-entry-->
 									</div><!--/ .caption-->
 								</li>					
 				
 								<li>
-									<a href="carDetail.html"  target="_blank">
+									<a href="carDetail.jsp"  target="_blank">
 									<img src="images/temp/8.jpg" alt="" style="width: 100%;height: 100%" />
 									</a>
 									<div class="caption">
@@ -229,13 +243,13 @@
 												<dd><span class="heading">￥42.4万</span></dd>
 											</dl><!--/ .auto-detailed-->
 				
-											<a href="carDetail.html"  target="_blank"  class="button orange">详情 &raquo;</a>
+											<a href="carDetail.jsp"  target="_blank"  class="button orange">详情 &raquo;</a>
 										</div><!--/ .caption-entry-->
 									</div><!--/ .caption-->
 								</li>					
 				
 								<li>
-									<a href="carDetail.html"  target="_blank">
+									<a href="carDetail.jsp"  target="_blank">
 									<img src="images/temp/0.jpg" alt="" style="width: 100%;height: 100%" />
 									</a>
 									<div class="caption">
@@ -248,13 +262,13 @@
 												<dd><span class="heading">￥39.0万</span></dd>
 											</dl><!--/ .auto-detailed-->
 				
-											<a href="carDetail.html"  target="_blank"  class="button orange">详情 &raquo;</a>
+											<a href="carDetail.jsp"  target="_blank"  class="button orange">详情 &raquo;</a>
 										</div><!--/ .caption-entry-->
 									</div><!--/ .caption-->
 								</li>					
 				
 								<li>
-									<a href="carDetail.html"  target="_blank">
+									<a href="carDetail.jsp"  target="_blank">
 									<img src="images/temp/1.jpg" alt="" style="width: 100%;height: 100%" />
 									</a>
 									<div class="caption">
@@ -267,13 +281,13 @@
 												<dd><span class="heading">￥61.6万</span></dd>
 											</dl><!--/ .auto-detailed-->
 				
-											<a href="carDetail.html"  target="_blank"  class="button orange">详情 &raquo;</a>
+											<a href="carDetail.jsp"  target="_blank"  class="button orange">详情 &raquo;</a>
 										</div><!--/ .caption-entry-->
 									</div><!--/ .caption-->
 								</li>					
 				
 								<li>
-									<a href="carDetail.html"  target="_blank">
+									<a href="carDetail.jsp"  target="_blank">
 									<img src="images/temp/0.jpg" alt="" style="width: 100%;height: 100%" />
 									</a>
 									<div class="caption">
@@ -286,7 +300,7 @@
 												<dd><span class="heading">￥92.7万</span></dd>
 											</dl><!--/ .auto-detailed-->
 				
-											<a href="carDetail.html"  target="_blank"  class="button orange">详情 &raquo;</a>
+											<a href="carDetail.jsp"  target="_blank"  class="button orange">详情 &raquo;</a>
 										</div><!--/ .caption-entry-->
 									</div><!--/ .caption-->
 								</li>					
@@ -304,7 +318,7 @@
 			
 			<h3 class="widget-title">快速查找</h3>
 			
-			<form action="search.html" id="boxpanel" class="form-panel" />
+			<form action="search.jsp" id="boxpanel" class="form-panel" />
 				<input type="hidden"   name="method"  value="search"/>
 				<fieldset>
 					<label for="manufacturer">厂商:</label>
@@ -408,11 +422,11 @@
 
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/4.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2016/1/16&nbsp;3.0L&nbsp;城市风尚</h6>
 										</a>
 			
@@ -422,7 +436,7 @@
 											<b>162306.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=199"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -431,11 +445,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/7.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2014/2/23&nbsp;1.5L&nbsp;手动豪华</h6>
 										</a>
 			
@@ -445,7 +459,7 @@
 											<b>83089.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=198"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -454,11 +468,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/9.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2017/5/3&nbsp;3.0L&nbsp;手动舒适</h6>
 										</a>
 			
@@ -468,7 +482,7 @@
 											<b>295026.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=197"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -477,11 +491,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/9.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2014/8/20&nbsp;2.0L&nbsp;手动精英</h6>
 										</a>
 			
@@ -491,7 +505,7 @@
 											<b>431264.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=196"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -500,11 +514,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/8.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2005/11/27&nbsp;2.0T&nbsp;自动精英</h6>
 										</a>
 			
@@ -514,7 +528,7 @@
 											<b>446918.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=195"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -523,11 +537,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/5.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2006/10/19&nbsp;3.0T&nbsp;手动舒适</h6>
 										</a>
 			
@@ -537,7 +551,7 @@
 											<b>67045.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=194"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -546,11 +560,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/8.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2013/5/16&nbsp;5.0L&nbsp;自动精英</h6>
 										</a>
 			
@@ -560,7 +574,7 @@
 											<b>955615.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=193"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -569,11 +583,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/7.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2006/2/22&nbsp;3.0L&nbsp;城市豪华</h6>
 										</a>
 			
@@ -583,7 +597,7 @@
 											<b>43535.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=192"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -592,11 +606,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/1.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2004/1/2&nbsp;2.0T&nbsp;自动豪华</h6>
 										</a>
 			
@@ -606,7 +620,7 @@
 											<b>153660.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=191"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -615,11 +629,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/5.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2009/9/12&nbsp;1.0L&nbsp;城市豪华</h6>
 										</a>
 			
@@ -629,7 +643,7 @@
 											<b>60225.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=190"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -638,11 +652,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/5.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2009/11/3&nbsp;5.0L&nbsp;手动豪华</h6>
 										</a>
 			
@@ -652,7 +666,7 @@
 											<b>182799.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=189"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -661,11 +675,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/2.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2004/3/28&nbsp;5.0L&nbsp;城市风尚</h6>
 										</a>
 			
@@ -675,7 +689,7 @@
 											<b>825012.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=188"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -684,11 +698,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/1.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2012/7/25&nbsp;4.0L&nbsp;自动豪华</h6>
 										</a>
 			
@@ -698,7 +712,7 @@
 											<b>339111.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=187"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -707,11 +721,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/4.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2013/6/27&nbsp;2.5L&nbsp;手动舒适</h6>
 										</a>
 			
@@ -721,7 +735,7 @@
 											<b>642573.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=186"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -730,11 +744,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/2.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2013/10/10&nbsp;2.0T&nbsp;城市豪华</h6>
 										</a>
 			
@@ -744,7 +758,7 @@
 											<b>903247.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=185"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -753,11 +767,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/4.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2008/12/23&nbsp;5.0T&nbsp;手动豪华</h6>
 										</a>
 			
@@ -767,7 +781,7 @@
 											<b>295541.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=184"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -776,11 +790,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/2.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2007/11/4&nbsp;4.0T&nbsp;城市风尚</h6>
 										</a>
 			
@@ -790,7 +804,7 @@
 											<b>796115.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=183"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -799,11 +813,11 @@
 									</li>
 						
 									<li>
-										<a   name="sellCar"   href="carDetail.html" class="single-image video picture">
+										<a   name="sellCar"   href="carDetail.jsp" class="single-image video picture">
 											<img style="width: 200px;height: 120px;" src="images/temp/2.jpg" alt="" />
 										</a>
 			
-										<a href="carDetail.html" class="list-meta">
+										<a href="carDetail.jsp" class="list-meta">
 											<h6 class="title-list-item">2016/12/2&nbsp;4.0T&nbsp;自动豪华</h6>
 										</a>
 			
@@ -813,7 +827,7 @@
 											<b>240150.0公里</b>	
 										</div><!--/ .detailed-->
 			
-										<a href="carDetail.html" class="button orange">详情</a>
+										<a href="carDetail.jsp" class="button orange">详情</a>
 											&nbsp;
 										<a href="ShoppingCarServlet?method=add&carid=182"  target="_blank">
 											<img onmouseover="this.style.boxShadow='-1px  -1px  12px red'" onmouseout="this.style.boxShadow=''"  src="images/shoppingCar.png" width="25" height="25" title="添加到购物车" style="margin: 0px;padding: 0px;position: relative;top: 8px;border-radius:12.5px" />
@@ -894,19 +908,19 @@
 					
 					<ul>
 					 
-						<li><a href="newsDetail.html?=50">二手车常见知识50</a></li>
+						<li><a href="newsDetail.jsp?=50">二手车常见知识50</a></li>
 						
-						<li><a href="newsDetail.html?=49">二手车常见知识49</a></li>
+						<li><a href="newsDetail.jsp?=49">二手车常见知识49</a></li>
 						
-						<li><a href="newsDetail.html?=48">二手车常见知识48</a></li>
+						<li><a href="newsDetail.jsp?=48">二手车常见知识48</a></li>
 						
-						<li><a href="newsDetail.html?=47">二手车常见知识47</a></li>
+						<li><a href="newsDetail.jsp?=47">二手车常见知识47</a></li>
 						
-						<li><a href="newsDetail.html?=46">二手车常见知识46</a></li>
+						<li><a href="newsDetail.jsp?=46">二手车常见知识46</a></li>
 						
 					</ul>
 					
-					<a href="news.html" class="see" target="_blank">查看更多新闻</a>
+					<a href="news.jsp" class="see" target="_blank">查看更多新闻</a>
 					
 				</div><!--/ .widget-container-->
 
@@ -1042,6 +1056,7 @@
 	<form  id="loginForm" class="form-reg" method="post" action="UserServlet" />
 		<input  id="method" type="hidden" name="method" value="login"/>
 		
+<!-- 		<a   href="login.jsp" class="log">登陆</a> -->
 		<a id="login" href="javascript:void()" class="log">登陆</a>
 		
 		
@@ -1067,7 +1082,7 @@
 <!-- 			<a  id="submitButton"  href="#" class="button dark enter-btn">登陆</a> -->
 			<input type="submit"  class="button dark enter-btn" value="登陆" style="border: none" />
 <!-- 			<a id="registerButton" href="#" class="button dark enter-btn">注册</a> -->
-			<a   href="register.html"  target="_blank" class="button dark enter-btn">注册</a>
+			<a   href="register.jsp"  target="_blank" class="button dark enter-btn">注册</a>
 			<a href="javascript:void();" id="closeLogin" class="button dark enter-btn">关闭</a>
 		</p>
 		
@@ -1098,10 +1113,10 @@
 				{
 					var  result=xhr.responseText;
 					if(result=='true'){
-						$("#userExtist").html("<b style='color:green'>√</b>");
+						$("#userExtist").jsp("<b style='color:green'>√</b>");
 					}else
 					{
-						$("#userExtist").html("<b style='color:red'>×</b>");
+						$("#userExtist").jsp("<b style='color:red'>×</b>");
 					}
 				}
 		}
@@ -1117,10 +1132,10 @@
 		$("[name='username']").blur(function(){
 			$.get("UserServlet?method=checkUserExists&username="+$(this).val(),function(data,status){
 				if(data!='true'){
-					$("#userExtist").html("<b style='color:red;text-shadow:2px 2px 2px white;font-weight:bold'>账户不存在！</b>");
+					$("#userExtist").jsp("<b style='color:red;text-shadow:2px 2px 2px white;font-weight:bold'>账户不存在！</b>");
 					$("#userExtist").css("display","block");
 				}else{
-					$("#userExtist").html("");
+					$("#userExtist").jsp("");
 					$("#userExtist").css("display","none");
 				}
 			});

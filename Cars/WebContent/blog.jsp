@@ -33,7 +33,7 @@
 	
 	<header id="header" class="clearfix">
 		
-		<a href="index.html" id="logo"><img src="images/logo.png" alt="Car Dealer" /></a>
+		<a href="index.jsp" id="logo"><img src="images/logo.png" alt="Car Dealer" /></a>
 		
 		<div class="widget-container widget_search">
 			
@@ -41,7 +41,7 @@
 			
 			<span class="adds">中国，湖北省，襄阳市</span>
 
-			<form action="search.html" id="searchform" method="get" />
+			<form action="search.jsp" id="searchform" method="get" />
 				<input type="hidden"   name="method"  value="searchAny" />
 				<p>
 					
@@ -60,94 +60,94 @@
 		<nav id="navigation" class="navigation">
 			
 			<ul>
-				<li class="current-menu-item"><a href="index.html">首頁</a></li>
+				<li class="current-menu-item"><a href="index.jsp">首頁</a></li>
 				<li><a href="javascript:void()">找车</a>
 					<ul>
 						<li><a href="#">根据品牌</a>
 							<ul>
-								<li><a href="search.html">阿斯顿马丁</a></li>
-								<li><a href="search.html">奥迪</a></li>
-								<li><a href="search.html">宝马</a></li>
-								<li><a href="search.html">雪佛兰</a></li>
-								<li><a href="search.html">梅赛德斯奔驰</a></li>
-								<li><a href="search.html">法拉利</a></li>
-								<li><a href="search.html">雷克萨斯</a></li>
-								<li><a href="search.html">保时捷</a></li>
-								<li><a href="search.html">丰田</a></li>
+								<li><a href="search.jsp">阿斯顿马丁</a></li>
+								<li><a href="search.jsp">奥迪</a></li>
+								<li><a href="search.jsp">宝马</a></li>
+								<li><a href="search.jsp">雪佛兰</a></li>
+								<li><a href="search.jsp">梅赛德斯奔驰</a></li>
+								<li><a href="search.jsp">法拉利</a></li>
+								<li><a href="search.jsp">雷克萨斯</a></li>
+								<li><a href="search.jsp">保时捷</a></li>
+								<li><a href="search.jsp">丰田</a></li>
 							</ul>
 						</li>
 						<li><a href="#">根据车型</a>
 							<ul>
-								<li><a href="search.html">轿车</a></li>
-								<li><a href="search.html">suv</a></li>
-								<li><a href="search.html">越野车</a></li>
-								<li><a href="search.html">敞篷车</a></li>
-								<li><a href="search.html">跑车</a></li>
-								<li><a href="search.html">皮卡</a></li>
-								<li><a href="search.html">mpv</a></li>
-								<li><a href="search.html">硬派越野车</a></li>
+								<li><a href="search.jsp">轿车</a></li>
+								<li><a href="search.jsp">suv</a></li>
+								<li><a href="search.jsp">越野车</a></li>
+								<li><a href="search.jsp">敞篷车</a></li>
+								<li><a href="search.jsp">跑车</a></li>
+								<li><a href="search.jsp">皮卡</a></li>
+								<li><a href="search.jsp">mpv</a></li>
+								<li><a href="search.jsp">硬派越野车</a></li>
 							</ul>
 						</li>
 						</li>
 <!-- 						<li><a href="#">根据引擎</a> -->
 <!-- 							<ul> -->
-<!-- 								<li><a href="search.html">轿车</a></li> -->
+<!-- 								<li><a href="search.jsp">轿车</a></li> -->
 <!-- 							</ul> -->
 <!-- 						</li> -->
 						<li><a href="#">根据里程</a>
 							<ul>
-								<li><a href="search.html">10000以内</a></li>
-								<li><a href="search.html">1万-3万</a></li>
-								<li><a href="search.html">3万-5万</a></li>
-								<li><a href="search.html">5万-10万</a></li>
-								<li><a href="search.html">10万-30万</a></li>
-								<li><a href="search.html">30万-50万</a></li>
-								<li><a href="search.html">50万以上</a></li>
+								<li><a href="search.jsp">10000以内</a></li>
+								<li><a href="search.jsp">1万-3万</a></li>
+								<li><a href="search.jsp">3万-5万</a></li>
+								<li><a href="search.jsp">5万-10万</a></li>
+								<li><a href="search.jsp">10万-30万</a></li>
+								<li><a href="search.jsp">30万-50万</a></li>
+								<li><a href="search.jsp">50万以上</a></li>
 							</ul>
 						</li>
 <!-- 						<li><a href="#">根据年份</a></li> -->
 						<li><a href="#">根据价格</a>
 							<ul>
-								<li><a href="search.html">1万以内</a></li>
-								<li><a href="search.html">1万-3万</a></li>
-								<li><a href="search.html">3万-5万</a></li>
-								<li><a href="search.html">5万-10万</a></li>
-								<li><a href="search.html">10万-30万</a></li>
-								<li><a href="search.html">30万-50万</a></li>
-								<li><a href="search.html">50万以上</a></li>
+								<li><a href="search.jsp">1万以内</a></li>
+								<li><a href="search.jsp">1万-3万</a></li>
+								<li><a href="search.jsp">3万-5万</a></li>
+								<li><a href="search.jsp">5万-10万</a></li>
+								<li><a href="search.jsp">10万-30万</a></li>
+								<li><a href="search.jsp">30万-50万</a></li>
+								<li><a href="search.jsp">50万以上</a></li>
 							</ul>
 						</li>
 						<li><a href="#">根据变速箱</a>
 							<ul>
-								<li><a href="search.html">自动</a></li>
-								<li><a href="search.html">手动</a></li>
-								<li><a href="search.html">手自一体</a></li>
-								<li><a href="search.html">序列</a></li>
+								<li><a href="search.jsp">自动</a></li>
+								<li><a href="search.jsp">手动</a></li>
+								<li><a href="search.jsp">手自一体</a></li>
+								<li><a href="search.jsp">序列</a></li>
 							</ul>
 						</li>
 					</ul>
 				</li>
-				<li><a href="blog.html">博客</a>
+				<li><a href="blog.jsp">博客</a>
 <!-- 					<ul> -->
-<!-- 						<li><a href="blog.html">Blog</a></li> -->
-<!-- 						<li><a href="blog-single.html">Blog Single</a></li> -->
+<!-- 						<li><a href="blog.jsp">Blog</a></li> -->
+<!-- 						<li><a href="blog-single.jsp">Blog Single</a></li> -->
 <!-- 					</ul> -->
 				</li>
-				<li><a href="news.html">新闻</a></li>
-				<li><a href="sales.html">销售顾问</a></li>
+				<li><a href="news.jsp">新闻</a></li>
+				<li><a href="sales.jsp">销售顾问</a></li>
 				<li><a href="javascript:void()">其他</a>
 					<ul>
-						<li><a href="compare.html">车型对比</a></li>
-<!-- 						<li><a href="404.html">404 Page</a></li> -->
-<!-- 						<li><a href="image-and-floats.html">Images and Floats</a></li> -->
-<!-- 						<li><a href="pricing-table.html">Pricing Tables</a></li> -->
-<!-- 						<li><a href="typography.html">Typography</a></li> -->
-						<li><a href="search.html">汽车常见知识</a></li>
-<!-- 						<li><a href="columns.html">Column Layout</a></li> -->
+						<li><a href="compare.jsp">车型对比</a></li>
+<!-- 						<li><a href="404.jsp">404 Page</a></li> -->
+<!-- 						<li><a href="image-and-floats.jsp">Images and Floats</a></li> -->
+<!-- 						<li><a href="pricing-table.jsp">Pricing Tables</a></li> -->
+<!-- 						<li><a href="typography.jsp">Typography</a></li> -->
+						<li><a href="search.jsp">汽车常见知识</a></li>
+<!-- 						<li><a href="columns.jsp">Column Layout</a></li> -->
 					</ul>
 				</li>
-				<li><a href="contact.html">联系我们</a></li>
-				<li><a href="shoppingCar.html"><img src="images/shoppingCar.png" width="30" height="30" title="查看购物车" style="position: relative;top: 8px;"/></a></li>
+				<li><a href="contact.jsp">联系我们</a></li>
+				<li><a href="shoppingCar.jsp"><img src="images/shoppingCar.png" width="30" height="30" title="查看购物车" style="position: relative;top: 8px;"/></a></li>
 			</ul>
 			
 		</nav><!--/ #navigation-->
@@ -181,7 +181,7 @@
 							<li class="tags"><b>分类标签:</b>&nbsp;<a href="#">Cars</a><a href="#">News</a></li>
 						</ul>
 							
-						<a href="blogDetail.html">
+						<a href="blogDetail.jsp">
 							<h6 class="title">2009  Aston Martin DB9</h6>
 						</a>
 
@@ -196,7 +196,7 @@
 
 					<footer class="meta clearfix">
 						<a href="#" class="icon-comments">12 条评论</a>
-						<a href="blogDetail.html" class="button dark">详情</a>
+						<a href="blogDetail.jsp" class="button dark">详情</a>
 					</footer><!--/ .meta -->
 			
 				</article><!--/ .entry-->
@@ -213,7 +213,7 @@
 							<li class="tags"><b>分类标签:</b>&nbsp;<a href="#">Cars</a><a href="#">News</a></li>
 						</ul>
 							
-						<a href="blogDetail.html">
+						<a href="blogDetail.jsp">
 							<h6 class="title">2009  Aston Martin DB9</h6>
 						</a>
 
@@ -228,7 +228,7 @@
 
 					<footer class="meta clearfix">
 						<a href="#" class="icon-comments">12 条评论</a>
-						<a href="blogDetail.html" class="button dark">详情</a>
+						<a href="blogDetail.jsp" class="button dark">详情</a>
 					</footer><!--/ .meta -->
 			
 				</article><!--/ .entry-->
@@ -245,7 +245,7 @@
 							<li class="tags"><b>分类标签:</b>&nbsp;<a href="#">Cars</a><a href="#">News</a></li>
 						</ul>
 							
-						<a href="blogDetail.html">
+						<a href="blogDetail.jsp">
 							<h6 class="title">2009  Aston Martin DB9</h6>
 						</a>
 
@@ -260,7 +260,7 @@
 
 					<footer class="meta clearfix">
 						<a href="#" class="icon-comments">12 条评论</a>
-						<a href="blogDetail.html" class="button dark">详情</a>
+						<a href="blogDetail.jsp" class="button dark">详情</a>
 					</footer><!--/ .meta -->
 			
 				</article><!--/ .entry-->
@@ -277,7 +277,7 @@
 							<li class="tags"><b>分类标签:</b>&nbsp;<a href="#">Cars</a><a href="#">News</a></li>
 						</ul>
 							
-						<a href="blogDetail.html">
+						<a href="blogDetail.jsp">
 							<h6 class="title">2009  Aston Martin DB9</h6>
 						</a>
 
@@ -292,7 +292,7 @@
 
 					<footer class="meta clearfix">
 						<a href="#" class="icon-comments">12 条评论</a>
-						<a href="blogDetail.html" class="button dark">详情</a>
+						<a href="blogDetail.jsp" class="button dark">详情</a>
 					</footer><!--/ .meta -->
 			
 				</article><!--/ .entry-->
@@ -321,7 +321,7 @@
 			
 			<h3 class="widget-title">快速查找</h3>
 			
-			<form action="search.html" id="boxpanel" class="form-panel" />
+			<form action="search.jsp" id="boxpanel" class="form-panel" />
 				<input type="hidden"   name="method"  value="search"/>
 				<fieldset>
 					<label for="manufacturer">厂商:</label>
@@ -609,7 +609,7 @@
 <!-- 			<a  id="submitButton"  href="#" class="button dark enter-btn">登陆</a> -->
 			<input type="submit"  class="button dark enter-btn" value="登陆" style="border: none" />
 <!-- 			<a id="registerButton" href="#" class="button dark enter-btn">注册</a> -->
-			<a   href="register.html"  target="_blank" class="button dark enter-btn">注册</a>
+			<a   href="register.jsp"  target="_blank" class="button dark enter-btn">注册</a>
 			<a href="javascript:void();" id="closeLogin" class="button dark enter-btn">关闭</a>
 		</p>
 		
@@ -640,10 +640,10 @@
 				{
 					var  result=xhr.responseText;
 					if(result=='true'){
-						$("#userExtist").html("<b style='color:green'>√</b>");
+						$("#userExtist").jsp("<b style='color:green'>√</b>");
 					}else
 					{
-						$("#userExtist").html("<b style='color:red'>×</b>");
+						$("#userExtist").jsp("<b style='color:red'>×</b>");
 					}
 				}
 		}
@@ -659,10 +659,10 @@
 		$("[name='username']").blur(function(){
 			$.get("UserServlet?method=checkUserExists&username="+$(this).val(),function(data,status){
 				if(data!='true'){
-					$("#userExtist").html("<b style='color:red;text-shadow:2px 2px 2px white;font-weight:bold'>账户不存在！</b>");
+					$("#userExtist").jsp("<b style='color:red;text-shadow:2px 2px 2px white;font-weight:bold'>账户不存在！</b>");
 					$("#userExtist").css("display","block");
 				}else{
-					$("#userExtist").html("");
+					$("#userExtist").jsp("");
 					$("#userExtist").css("display","none");
 				}
 			});
