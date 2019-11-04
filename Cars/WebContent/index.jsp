@@ -1,3 +1,4 @@
+<%@page import="model.javabean.User"%>
 <%@page contentType="text/html;charset=utf-8" %><!DOCTYPE html>
 
 <!-- EL的函数库=jstl的函数 -->
@@ -161,13 +162,15 @@
 				
 				<%
 				if(session.getAttribute("user")!=null){
-					
 					%>
-					<li>欢迎您：<%=session.getAttribute("user") %>!</li>
+					<li>欢迎您：<%=((User)session.getAttribute("user")).getNickname() %>!
+					<img style="width: 30px;height: 30px;border-radius: 15px;border:1px solid gray;box-shadow: -1px -1px 10px red;position:relative;top:8px" src="<%=((User)session.getAttribute("user")).getImage() %>"/>
+					</li>
 					<%
 				}else{
 					%>
 					<li><a href="login.jsp">登陆</li>
+					<li><a href="register.jsp">注册</li>
 					<%
 				}
 				%>

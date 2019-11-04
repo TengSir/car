@@ -56,7 +56,7 @@
                         			<h3>Login to our site</h3>
                             		<p>Enter your username and password to log on:</p>
                             		<% if(request.getAttribute("errorMessage")!=null){ %>
-                            		<%=new String(request.getAttribute("errorMessage").toString().getBytes("iso-8859-1"),"UTF-8") %>
+                            		<%=request.getAttribute("errorMessage") %>
                         			<%} %>
                         		</div>
                         		<div class="form-top-right">
@@ -64,7 +64,7 @@
                         		</div>
                             </div>
                             <div class="form-bottom">
-			                    <form role="form" action="UserServlet" method="post" class="login-form">
+			                    <form role="form" action="UserServlet?method=login" method="post" class="login-form">
 			                    	<div class="form-group">
 			                    		<label class="sr-only" for="form-username">Username</label>
 			                        	<input type="text" name="form-username" placeholder="Username..." class="form-username form-control" id="form-username">
@@ -72,6 +72,11 @@
 			                        <div class="form-group">
 			                        	<label class="sr-only" for="form-password">Password</label>
 			                        	<input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-password">验证码</label>
+			                        	<input style="width: 65%;float: left" type="text" name="yanzhengma" placeholder="Password..." class="form-password form-control" id="form-password">
+			                        	<img  onclick="refreshImage(this)" style="width: 30%;float: left;margin-left:4%;height:51px"  src="ImageServlet"/>
 			                        </div>
 			                        <button type="submit" class="btn">Sign in!</button>
 			                    </form>
@@ -105,6 +110,15 @@
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
         <script src="assets/js/scripts.js"></script>
+        
+        <script type="text/javascript">
+        	function refreshImage(x){
+        		/* alert(x);
+        		alert(x.src);
+        		alert(Math.random()); */
+        		x.src="ImageServlet?xxx="+Math.random();
+        	}
+        </script>
         
         <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>

@@ -37,7 +37,7 @@
 			<section class="pricing-table col4 clearfix">
 				
 				<div class="col" style="width: 80%">
-					<form action="UserServlet" method="post">
+					<form action="UserServlet?method=register" method="post">
 					<input  type="hidden"  name="method"  value="register"/>
 					<div class="heading">
 						头像:
