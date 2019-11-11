@@ -8,6 +8,27 @@ import model.javabean.User;
 
 public class UserDAOImp extends BaseDAOImp implements UserDAO {
 	public boolean register(User user) {
+		PreparedStatement  pre=getPreSta("insert into user(userid,username,password,nickname,sex,age,image) values(null,?,?,?,?,?,?)");
+		try {
+			pre.setString(1, user.getUsername());
+			pre.setString(2, user.getPassword());
+			pre.setString(3, user.getNickname());
+			pre.setInt(4, Integer.parseInt(user.getSex()));
+			pre.setInt(5, user.getAge());
+			pre.setString(6, user.getImage());
+		} catch (Exception e) {
+		}
+		try {
+			return pre.executeUpdate()>0?true:false;
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				pre.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
 		return false;
 	}
 	public boolean deleteUser(User user) {
@@ -34,8 +55,16 @@ public class UserDAOImp extends BaseDAOImp implements UserDAO {
 				user.setNickname(rs.getString("nickname"));
 				user.setImage(rs.getString("image"));
 			}
+			rs.close();
 		} catch (Exception e) {
 			e.printStackTrace();
+		}
+		finally {
+			try {
+				sta.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
 		}
 		return user;
 	}

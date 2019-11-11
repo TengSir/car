@@ -30,22 +30,30 @@ public class BaseDAOImp implements BaseDAO {
 		return con;
 	}
 	public Statement getSta() {
-		if(sta==null) {
-			try {
-				sta=con.createStatement();
-			} catch (SQLException e) {
-				e.printStackTrace();
+		try {
+			if(sta==null||sta.isClosed()) {
+				try {
+					sta=con.createStatement();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
 			}
+		} catch (SQLException e) {
+			e.printStackTrace();
 		}
 		return sta;
 	}
 	public PreparedStatement getPreSta(String sql) {
-		if(preSta==null) {
-			try {
-				preSta=con.prepareStatement(sql);
-			} catch (SQLException e) {
-				e.printStackTrace();
+		try {
+			if(preSta==null||preSta.isClosed()) {
+				try {
+					preSta=con.prepareStatement(sql);
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
 			}
+		} catch (SQLException e) {
+			e.printStackTrace();
 		}
 		return preSta;
 	}
