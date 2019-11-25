@@ -6,7 +6,7 @@ public class RenameHTMLToJSP {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		File  dir=new File("/Users/tengsir/workspace/java/JavaEE/Cars/WebContent");
+		File  dir=new File("/Users/tengsir/workspace/java/JavaEE/CarManager/WebContent");
 		
 		File[] files=dir.listFiles();
 		

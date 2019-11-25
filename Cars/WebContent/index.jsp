@@ -1,6 +1,8 @@
 <%@page import="model.javabean.User"%>
 <%@page contentType="text/html;charset=utf-8" %><!DOCTYPE html>
 
+
+<%@taglib    uri="http://java.sun.com/jsp/jstl/core"  prefix="c" %>
 <!-- EL的函数库=jstl的函数 -->
 
 
@@ -163,7 +165,7 @@
 				<%
 				if(session.getAttribute("user")!=null){
 					%>
-					<li>欢迎您：<%=((User)session.getAttribute("user")).getNickname() %>!
+					<li>欢迎您!  ${sessionScope.user.username}
 					<img style="width: 30px;height: 30px;border-radius: 15px;border:1px solid gray;box-shadow: -1px -1px 10px red;position:relative;top:8px" src="<%=((User)session.getAttribute("user")).getImage() %>"/>
 					</li>
 					<%

@@ -95,8 +95,8 @@ public class UserServlet extends HttpServlet {
 		System.out.println("调用到后台的servlet判断登陆的方法了");
 		//1.获取上个页面中输入的用户名和密码
 
-		String yourInputusername=request.getParameter("form-username");
-		String yourInputpassword=request.getParameter("form-password");
+		String yourInputusername=request.getParameter("username");
+		String yourInputpassword=request.getParameter("password");
 		String yanzhengma=request.getParameter("yanzhengma");
 		String systemYanzhengma=request.getSession().getAttribute("code").toString();
 		//2.先验证和验证码是否正确，不正确，直接跳到登陆，正确之后再验证用户名和密码
