@@ -1,6 +1,8 @@
+<%@page import="java.util.Random"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@taglib  uri="http://java.sun.com/jsp/jstl/core"  prefix="c" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/functions"  prefix="fn"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -36,24 +38,9 @@ weichengnianren
 </c:choose>
 <%
 ArrayList  names=new ArrayList();
-names.add("jack");
-names.add("rose");
-names.add("tom");
-names.add("mike");
-names.add("mike");
-names.add("mike");
-names.add("mike");
-names.add("mike");
-names.add("mike");
-names.add("mike");
-names.add("mike");
-names.add("mike");
-names.add("mike");
-names.add("mike");
-names.add("mike");
-names.add("mike");
-names.add("mike");
-names.add("mike");
+for(int n=0;n<20;n++){
+names.add(new Random().nextDouble());
+}
 request.setAttribute("users", names);
 %>
 <!--  c:foreach 用来做循环遍历集合数据的标签 -->
@@ -62,12 +49,12 @@ request.setAttribute("users", names);
 		<c:choose>
 			<c:when test="${s.count mod 2 eq 0}">
 					<tr bgcolor="lightskyblue">
-						<td>第${s.count}楼</td><td>${u}</td>
+						<td>第${s.count}楼</td><td>${fn:replace(fn:substring(u,0,8),'0','@')}</td>
 					</tr>
 			</c:when>
 			<c:otherwise>
 					<tr>
-						<td>第${s.count}楼</td><td>${u}</td>
+						<td>第${s.count}楼</td><td>${fn:substring(u,0,8)}</td>
 					</tr>	
 			</c:otherwise>
 		
