@@ -30,7 +30,7 @@ public class BaseDAOImp implements BaseDAO {
 		BasicDataSourceFactory dataSource=new BasicDataSourceFactory();
 		Properties  p=new Properties();
 		try {
-			p.load(new FileInputStream("/Users/tengsir/git/car/Cars/src/datasource.properties"));
+			p.load(new FileInputStream("/Users/tengsir/workspace/GITResponstories/car/Cars/src/datasource.properties"));
 			pools=dataSource.createDataSource(p);
 			System.out.println(pools);
 			System.out.println("连接池准备完毕");

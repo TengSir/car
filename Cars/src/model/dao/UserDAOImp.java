@@ -68,5 +68,20 @@ public class UserDAOImp extends BaseDAOImp implements UserDAO {
 		}
 		return user;
 	}
+	@Override
+	public boolean checkUsername(String username) {
+		boolean result=false;
+		PreparedStatement  pre=getPreSta("select count(*)  from  user where username=?");
+		try {
+			pre.setString(1, username);
+			ResultSet rs=pre.executeQuery();
+			rs.next();
+			result=rs.getInt(1)>0?true:false;
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return result ;
+	}
 
 }

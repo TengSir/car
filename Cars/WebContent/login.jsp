@@ -28,7 +28,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
     </head>
 
     <body>
@@ -74,7 +74,7 @@
 			                        </div>
 			                        <div class="form-group">
 			                        	<label class="sr-only" for="form-password">验证码</label>
-			                        	<input style="width: 65%;float: left" type="text" name="yanzhengma" placeholder="Password..." class="form-password form-control" id="form-password">
+			                        	<input style="width: 65%;float: left" type="text" name="yanzhengma"   placeholder="Password..." class="form-password form-control" id="yanzhengma">
 			                        	<img  onclick="refreshImage(this)" style="width: 30%;float: left;margin-left:4%;height:51px"  src="ImageServlet"/>
 			                        </div>
 			                        <button type="submit" class="btn">Sign in!</button>
@@ -126,3 +126,18 @@
     </body>
 
 </html>
+
+
+<script>
+$(document).ready(function(){
+	$("#yanzhengma").blur(function(){
+		var yanzhengma=document.getElementById("yanzhengma").value;
+		alert(yanzhengma)
+		var url="UserServlet?method=checkyanzhengma&yanzhengma="+yanzhengma;
+		$.get(url,function(data){
+			alert(data);
+		})
+	})
+})
+	
+</script>

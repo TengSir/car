@@ -3,6 +3,7 @@ package edu.hbuas.cars.control;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -131,15 +132,48 @@ public class UserServlet extends HttpServlet {
 			login(request, response);
 		}else if(method.equals("register")) {
 			register(request, response);
-		}else if(method.equals("updatePassword")) {
-			
-		}else if(method.equals("forgetPassword")) {
-			
+		}else if(method.equals("checkUser")) {
+			checkUser(request, response);
+		}else if(method.equals("checkyanzhengma")) {
+			checkyanzhengma(request, response);
 		}else if(method.equals("updateUserInfo")) {
 			
 		}else if(method.equals("deleteUserinfo")) {
 			
 		}
+	}
+	protected void checkUser(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("请求到了判断用户名对方法里");
+		String username=request.getParameter("username");
+		System.out.println(username);
+		boolean result=dao.checkUsername(username);
+		System.out.println("查询的结果是"+result);
+		
+		//Ajax请求必须使用输出流将结果写出，而不能跳转页面
+		response.setContentType("text/html;charset=utf-8");
+		PrintWriter out=response.getWriter();
+		
+		out.write(result?"1":"0");
+		out.flush();
+		out.close();
+	}
+	protected void checkyanzhengma(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("请求到了判断验证码的方法里");
+		String yanzhengma=request.getParameter("yanzhengma");
+	   String systemCode=request.getSession().getAttribute("code").toString();
+	 
+		
+		//Ajax请求必须使用输出流将结果写出，而不能跳转页面
+		response.setContentType("text/html;charset=utf-8");
+		PrintWriter out=response.getWriter();
+		  if(yanzhengma.equalsIgnoreCase(systemCode)) {
+			  out.write("1");
+		   }else {
+			   out.write("0");
+		   }
+		
+		out.flush();
+		out.close();
 	}
 
 }
